@@ -1,239 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/4-common.css">
-        <link rel="stylesheet" href="styles/3-header.css">
-        <link rel="stylesheet" href="styles/3-footer.css">
-        <link rel="stylesheet" href="styles/6-filters.css">
-        <link rel="stylesheet" href="styles/8-places.css">
-        <link rel="tab icon" href="images/icon.png" type="image/png">
-        <title>AirBnB Clone</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="tab icon" href="images/icon.png" type="image/png">
+    <title>AirBnB Clone</title>
+</head>
 
-    <body>
-        <header>
-            <div class="logo"></div>
-        </header>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
 
-        <div class="container">
-            <section class="filters">
+    <div class="container">
+        <section class="filters">
 
-                <div class="locations">
-                    <h3>States</h3>
-                    <h4>Some content</h4>
-                    <ul class="popover">
-                        <li>
-                            <h2>State 1</h2>
-                            <ul>
-                                <li>City 1</li>
-                                <li>City 2</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h2>State 2</h2>
-                            <ul>
-                                <li>City 1</li>
-                                <li>City 2</li>
-                            </ul>
-                        </li>
-                    </ul>
+            <div class="locations">
+                <h3>States</h3>
+                <h4>State 1, State 2 ...</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>State 1</h2>
+                        <ul>
+                            <li>City 1</li>
+                            <li>City 2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>State 2</h2>
+                        <ul>
+                            <li>City 1</li>
+                            <li>City 2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Amenity 1, Amenity 2 ...</h4>
+                <ul class="popover">
+                    <li>Amenity 1</li>
+                    <li>Amenity 2</li>
+                    <li>Amenity 3</li>
+                    <li>Amenity 4</li>
+                </ul>
+            </div>
+
+            <button>Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <article>
+                <h2>Place 1</h2>
+                <div class="price_by_night">$100</div>
+                <div class="information">
+                    <div class="max_guest">
+                        <div class="guest_image"></div>
+                        <p>6 guests</p>
+                    </div>
+                    <div class="number_rooms">
+                        <div class="bed_image"></div>
+                        <p>3 bedrooms</p>
+                    </div>
+                    <div class="number_bathrooms">
+                        <div class="bath_image"></div>
+                        <p>2 bathrooms</p>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b>Remmy</p>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus condimentum
+                            justo,
+                            convallis consectetur sem bibendum viverra. Sed diam metus, rutrum sed maximus
+                            ullamcorper,
+                            commodo sed dui. Ut non lorem sagittis, semper lectus ut, tristique ligula. Praesent
+                            tellus magna,
+                            cursus sed elit et, laoreet cursus tellus. Vestibulum vitae semper urna. Sed sed rutrum
+                            ipsum, ac pretium arcu.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="amenities">
-                    <h3>Amenities</h3>
-                    <h4>Some content</h4>
-                    <ul class="popover">
-                        <li>Amenity 1</li>
-                        <li>Amenity 2</li>
-                        <li>Amenity 3</li>
-                        <li>Amenity 4</li>
-                    </ul>
+            </article>
+            <article>
+                <h2>Place 2</h2>
+                <div class="price_by_night">$100</div>
+                <div class="information">
+                    <div class="max_guest">
+                        <div class="guest_image"></div>
+                        <p>6 guests</p>
+                    </div>
+                    <div class="number_rooms">
+                        <div class="bed_image"></div>
+                        <p>3 bedrooms</p>
+                    </div>
+                    <div class="number_bathrooms">
+                        <div class="bath_image"></div>
+                        <p>3 bathrooms</p>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b>Remmy</p>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus condimentum
+                            justo,
+                            convallis consectetur sem bibendum viverra. Sed diam metus, rutrum sed maximus
+                            ullamcorper,
+                            commodo sed dui. Ut non lorem sagittis, semper lectus ut, tristique ligula. Praesent
+                            tellus magna,
+                            cursus sed elit et, laoreet cursus tellus. Vestibulum vitae semper urna. Sed sed rutrum
+                            ipsum, ac pretium arcu.
+                        </p>
+                    </div>
                 </div>
-                
-                <button>Search</button>
-            </section>
-            <section class="places">
-                <h1>Places</h1>
-                <article>
-                    <h2>Place 1</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
+            </article>
+            <article>
+                <h2>Place 3</h2>
+                <div class="price_by_night">$100</div>
+                <div class="information">
+                    <div class="max_guest">
+                        <div class="guest_image"></div>
+                        <p>3 guests</p>
                     </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>6</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>2</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                       
-                            </p>
-                        </div>
+                    <div class="number_rooms">
+                        <div class="bed_image"></div>
+                        <p>3 bedrooms</p>
                     </div>
-                </article>
-                <article>
-                    <h2>Place 2</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
+                    <div class="number_bathrooms">
+                        <div class="bath_image"></div>
+                        <p>2 bathrooms</p>
                     </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>6</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                       
-                            </p>
-                        </div>
+                    <div class="user">
+                        <p><b>Owner:</b>Remmy</p>
                     </div>
-                </article>
-                <article>
-                    <h2>Place 3</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus condimentum
+                            justo,
+                            convallis consectetur sem bibendum viverra. Sed diam metus, rutrum sed maximus
+                            ullamcorper,
+                            commodo sed dui. Ut non lorem sagittis, semper lectus ut, tristique ligula. Praesent
+                            tellus magna,
+                            cursus sed elit et, laoreet cursus tellus. Vestibulum vitae semper urna. Sed sed rutrum
+                            ipsum, ac pretium arcu.
+                        </p>
                     </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>2</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                     
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <h2>Place 4</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
-                    </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>5</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>3</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>1</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                      
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <h2>Place 5</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
-                    </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>5</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>4</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>4</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                      
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <h2>Place 6</h2>
-                    <div class="price_by_night">
-                        <p>$100</p>
-                    </div>
-                    <div class="information">
-                        <div class="max_guest">
-                            <div class="guest_image"></div>
-                            <p>7</p>
-                        </div>
-                        <div class="number_rooms">
-                            <div class="bed_image"></div>
-                            <p>4</p>
-                        </div>
-                        <div class="number_bathrooms">
-                            <div class="bath_image"></div>
-                            <p>5</p>
-                        </div>
-                        <div class="user">
-                            <p><b>Owner:</b>Remmy</p>
-                        </div>
-                        <div class="description">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Sed volutpat id enim quis rutrum.                    
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                
-        </div>
-        
-        <footer>Best School</footer>
-    </body>
+                </div>
+            </article>
+    </div>
+
+    <footer>Best School</footer>
+</body>
 
 </html>
