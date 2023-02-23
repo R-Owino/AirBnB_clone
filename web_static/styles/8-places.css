@@ -1,113 +1,127 @@
-section.places {
-    border: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-    margin: 45px auto;
+.places {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 45px auto;
+	text-align: center;
 }
 
-section.places h1 {
-    font-size: 30px;
-    padding-left: 20px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    flex: 0 1 100%;
-    text-align: left;
+article {
+	display: flex;
+	width: 390px;
+	flex: none;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
 }
 
-section.places article {
-    border: 1px solid #ff5a5f;
-    border-radius: 4px;
-    display: flex;
-    align-content: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-    width: 390px;
-    margin: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+h1 {
+	display: block;
+	text-align: left;
+	width: 95%;
+	display: block;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-size: 30px;
 }
 
-section.places article h2 {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+article h2 {
+	font-size: 30px;
+	margin: 10px auto;
+	padding: 0px;
+}
+.details {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+	height: 80px;	
+	width: 100%;
 }
 
-section.places .price_by_night {
-    color: #FF5A5F;
-    border: 4px solid #FF5A5F;
-    border-radius: 50%;
-    min-width: 60px;
-    height: 60px;
-    font-size: 30px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.price_by_night {
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+
+	position: absolute;
+	right: 0;
+
+	line-height: 60px;
+	color: #FF5A5F;
+	font-size: 30px;
+	padding: 5px;
+	border: 4px solid #FF5A5F;
+	border-radius: 100%;
+	float: right;
+	min-width: 60px;
+	height: 60px;
 }
 
-section.places .information {
-    display: block;
-    align-self: center;
-    height: 80px;
-    width: 100%;
-    border-top: 1px solid #DDDDDD;
-    border-bottom: 1px solid #DDDDDD;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    justify-content: center;
-    align-items: center;
+.information {
+	display: block;
+	height: 80px;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+
+	padding-top: 5px;
+	padding-bottom: 12px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.max_guest,
-.number_rooms,
-.number_bathrooms {
-    width: 100px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 0px auto;
+.max_guest, .number_rooms, .number_bathrooms {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin: 0px auto;
 }
 
-.guest_image {
-    height: 50px;
+.guest_icon {
+	display: inline-block;
+	background-image: url("../images/guest.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+}
+
+.bed_icon {
+	display: inline-block;
+	background-image: url("../images/bed.png");
+	background-repeat: no-repeat;
+	background-position: center;
     width: 50px;
-    display: inline-block;
-    background: url('../images/guest.png') no-repeat center;
-}
-
-.bed_image {
     height: 50px;
-    width: 50px;
-    display: inline-block;
-    background: url('../images/bed.png') no-repeat center;
 }
 
-.bath_image {
+.bath_icon {
+	display: inline-block;
+	background-image: url("../images/bath.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 50px;
     height: 50px;
-    width: 50px;
-    display: inline-block;
-    background: url('../images/bath.png') no-repeat center;
 }
 
-.user p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: left;
+.user {
+	margin-top: 5px;
+	margin-bottom: 5px;	
 }
 
-.description p {
-    text-align: left;
+.description {
+	text-align: left;
 }
+
+
