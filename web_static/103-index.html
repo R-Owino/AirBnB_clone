@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
     <link rel="stylesheet" href="styles/103-common.css">
     <link rel="stylesheet" href="styles/103-header.css">
     <link rel="stylesheet" href="styles/103-footer.css">
@@ -16,13 +18,12 @@
     <header>
         <div class="logo"></div>
     </header>
-
     <div class="container">
         <section class="filters">
 
             <div class="locations">
                 <h3>States</h3>
-                <h4>Some content</h4>
+                <h4>State 1, State 2 ...</h4>
                 <ul class="popover">
                     <li>
                         <h2>State 1</h2>
@@ -43,7 +44,7 @@
 
             <div class="amenities">
                 <h3>Amenities</h3>
-                <h4>Some content</h4>
+                <h4>Amenity 1, Amenity 2 ...</h4>
                 <ul class="popover">
                     <li>Amenity 1</li>
                     <li>Amenity 2</li>
@@ -57,327 +58,160 @@
         <section class="places">
             <h1>Places</h1>
             <article>
-                <h2>Place 1</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
+                <div class="details">
+                    <h2>Place 1</h2>
+                    <div class="price_by_night">$100</div>
                 </div>
                 <div class="information">
                     <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>6</p>
+                        <div class="guest_icon"></div>
+                        <p>6 guests</p>
                     </div>
                     <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>3</p>
+                        <div class="bed_icon"></div>
+                        <p>3 bedrooms</p>
                     </div>
                     <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>2</p>
+                        <div class="bath_icon"></div>
+                        <p>2 bathrooms</p>
                     </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="user"><b>Owner</b>: Remmy</div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+                    ex fugiat, ea vitae a id doloremque possimus laboriosam unde ullam eius?
+                    Ipsa esse ex nostrum unde itaque nihil nisi doloremque!
+                </div>
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li><span class="icon-pets"></span>Pet friendly</li>
+                        <li><span class="icon-tv"></span>Tv</li>
+                        <li><span class="icon-wifi"></span>Wifi</li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th January 2017</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Officia, porro.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>From Jolene the 5th January 2017</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </li>
+                    </ul>
                 </div>
             </article>
             <article>
-                <h2>Place 2</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
+                <div class="details">
+                    <h2>Place 2</h2>
+                    <div class="price_by_night">$100</div>
                 </div>
                 <div class="information">
                     <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>6</p>
+                        <div class="guest_icon"></div>
+                        <p>4 guests</p>
                     </div>
                     <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>3</p>
+                        <div class="bed_icon"></div>
+                        <p>2 bedrooms</p>
                     </div>
                     <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>3</p>
+                        <div class="bath_icon"></div>
+                        <p>1 bathrooms</p>
                     </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="user"><b>Owner</b>: Remmy</div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+                    ex fugiat, ea vitae a id doloremque possimus laboriosam unde ullam eius?
+                    Ipsa esse ex nostrum unde itaque nihil nisi doloremque!
+                </div>
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li><span class="icon-tv"></span>Tv</li>
+                        <li><span class="icon-wifi"></span>Wifi</li>
+                        <li><span class="icon-pets"></span>Pet friendly</li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th January 2017</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Officia, porro.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>From Jolene the 5th January 2017</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </li>
+                    </ul>
                 </div>
             </article>
             <article>
-                <h2>Place 3</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
+                <div class="details">
+                    <h2>Place 3</h2>
+                    <div class="price_by_night">$100</div>
                 </div>
                 <div class="information">
                     <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>3</p>
+                        <div class="guest_icon"></div>
+                        <p>3 guests</p>
                     </div>
                     <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>3</p>
+                        <div class="bed_icon"></div>
+                        <p>4 bedroom</p>
                     </div>
                     <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>2</p>
+                        <div class="bath_icon"></div>
+                        <p>7 bathrooms</p>
                     </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="user"><b>Owner</b>: Remmy</div>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+                    ex fugiat, ea vitae a id doloremque possimus laboriosam unde ullam eius?
+                    Ipsa esse ex nostrum unde itaque nihil nisi doloremque!
+                </div>
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li><span class="icon-pets"></span>Pet friendly</li>
+                        <li><span class="icon-tv"></span>Tv</li>
+                        <li><span class="icon-wifi"></span>Wifi</li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th January 2017</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Officia, porro.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>From Jolene the 5th January 2017</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </li>
+                    </ul>
                 </div>
             </article>
-            <article>
-                <h2>Place 4</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>5</p>
-                    </div>
-                    <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>3</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>1</p>
-                    </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2>Place 5</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>5</p>
-                    </div>
-                    <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>4</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>4</p>
-                    </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2>Place 6</h2>
-                <div class="price_by_night">
-                    <p>$100</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <div class="guest_image"></div>
-                        <p>7</p>
-                    </div>
-                    <div class="number_rooms">
-                        <div class="bed_image"></div>
-                        <p>4</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <div class="bath_image"></div>
-                        <p>5</p>
-                    </div>
-                    <div class="user">
-                        <p><b>Owner:</b>Remmy</p>
-                    </div>
-                    <div class="description">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Sed volutpat id enim quis rutrum.
-                        </p>
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li><span class="icon-pets"></span>Pet friendly</li>
-                            <li><span class="icon-tv"></span>Tv</li>
-                            <li><span class="icon-wifi"></span>Wifi</li>
-                        </ul>
-                    </div>
-                    <div class="reviews">
-                        <h2>Reviews</h2>
-                        <ul>
-                            <li>
-                                <h3>From Bob Dylan the 27th January 2017</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Officia, porro.
-                                </p>
-                            </li>
-                            <li>
-                                <h3>From Jolene the 5th January 2017</h3>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-
+        </section>
     </div>
-
-    <footer>Best School</footer>
+    <footer>
+        <p>Best School</p>
+    </footer>
 </body>
 
 </html>
