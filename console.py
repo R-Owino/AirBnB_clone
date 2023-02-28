@@ -9,7 +9,7 @@ class HBNBCommand(cmd.Cmd):
     """
     Defines the HBNB command line interpreter
     This class inherits from cmd's ``Cmd`` class
-    
+
     Attributes:
         prompt (str): the prefix prompt
             to be displayed during cmdloop's runtime
