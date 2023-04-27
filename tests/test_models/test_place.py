@@ -47,8 +47,8 @@ class TestPlace(unittest.TestCase):
         p2 = Place()
         a_attr = getattr(p1, "name")
         self.assertTrue(a_attr == "")
-        p1.name = "Bali Towers"
-        self.assertEqual(p1.name, "Bali Towers")
+        p1.name = "Lower Karen"
+        self.assertEqual(p1.name, "Lower Karen")
         self.assertTrue(type(p1.name) == str)
 
         a_attr = getattr(p1, "description")
@@ -59,8 +59,8 @@ class TestPlace(unittest.TestCase):
 
         a_attr = getattr(p1, "city_id")
         self.assertTrue(a_attr == "")
-        p1.city_id = "BA-1289"
-        self.assertEqual(p1.city_id, "BA-1289")
+        p1.city_id = "KR-1289"
+        self.assertEqual(p1.city_id, "KR-1289")
         self.assertTrue(type(p1.city_id) == str)
 
         a_attr = getattr(p1, "number_rooms")
@@ -101,8 +101,8 @@ class TestPlace(unittest.TestCase):
 
         a_attr = getattr(p1, "amenity_ids")
         self.assertTrue(a_attr == [])
-        p1.amenity_ids = ["BA-1234", "NG-000"]
-        self.assertEqual(p1.amenity_ids, ["BA-1234", "NG-000"])
+        p1.amenity_ids = ["LK-1234", "NRB-000"]
+        self.assertEqual(p1.amenity_ids, ["LK-1234", "NRB-000"])
         self.assertTrue(type(p1.amenity_ids) == list)
 
         self.assertTrue(p2.id)
