@@ -47,8 +47,8 @@ class TestReview(unittest.TestCase):
         p2 = Review()
         a_attr = getattr(p1, "place_id")
         self.assertTrue(a_attr == "")
-        p1.place_id = "Ba-123"
-        self.assertEqual(p1.place_id, "Ba-123")
+        p1.place_id = "LK-123"
+        self.assertEqual(p1.place_id, "LK-123")
         self.assertTrue(type(p1.place_id) == str)
 
         a_attr = getattr(p1, "user_id")
